@@ -1,0 +1,724 @@
+/* .menu-item {
+    height: calc(var(--item-height)*0.5);
+}
+
+.item-button {
+    --button-size: calc(var(--item-height)*0.5);
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@400..700&display=swap");
+.Home {
+  width: 100%;
+  height: 95vh;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+  justify-content: center;
+}
+
+.HomeContainerRight{
+  display: flex;
+  align-items: center;
+}
+
+.HomeContainer {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  gap: 1%;
+}
+
+.HomeContainerLeft {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.HomeContainerLeft > span:first-of-type {
+  font-size: 50px;
+  font-weight: 500;
+  width: 90%;
+  color: black; /* A dark color for contrast */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional shadow for depth */
+}
+
+.HomeContainerLeft > span:nth-of-type(2) {
+  font-size: 40px;
+  font-weight: 500;
+  /* margin-left: 55px; */
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.HomeContainerLeft > span:nth-of-type(3) {
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  font-size: 15px;
+  width: 90%;
+  text-align: justify;
+}
+
+.HomeContainerLeft > div {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 35px;
+}
+
+
+@media (max-width:1000px) {
+
+  .HomeContainerLeft > span:first-of-type {
+    font-size: 40px;
+    font-weight: 500;
+    width: 90%;
+   
+  }
+  .HomeContainerLeft > span:nth-of-type(2) {
+    font-size: 25px;
+  }
+
+  .HomeContainerLeft > span:nth-of-type(3) {
+    
+    font-size: 10px;
+    
+  }
+}
+@media (max-width:625px) {
+
+  .Home{
+    align-items: center;
+    height: auto;
+    padding: 80px 0;
+  }
+
+  .HomeContainer{
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .HomeContainerLeft > span:first-of-type {
+    font-size: 50px;
+    font-weight: 500;
+    width: 90%;
+    color: black; /* A dark color for contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional shadow for depth */
+  }
+  
+  .HomeContainerLeft > span:nth-of-type(2) {
+    font-size: 35px;
+    font-weight: 500;
+    width: 90%;
+    /* margin-left: 55px; */
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .HomeContainerLeft > span:nth-of-type(3) {
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    font-size: 15px;
+    width: 90%;
+    text-align: justify;
+  }
+
+  .HomeContainerLeft{
+    width: 100% !important;
+    align-items: center;
+  }
+  .HomeContainerRight{
+    width: 100% !important;
+    justify-content: center;
+  }
+
+  .HomeContainerRight >img{
+    width: 800px;
+  }
+}
+
+
+@media (max-width:488px) {
+  .HomeContainerLeft > span:first-of-type {
+    font-size: 30px;
+    
+  }
+  
+  .HomeContainerLeft > span:nth-of-type(2) {
+    font-size: 20px;
+    font-weight: 500;
+    /* margin-left: 55px; */
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .HomeContainerLeft > span:nth-of-type(3) {
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    font-size: 12px;
+    width: 90%;
+    text-align: justify;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.button-29 {
+  width: 250px;
+  align-items: center;
+  appearance: none;
+  background: radial-gradient(
+    circle at top left,
+    rgba(234, 179, 8, var(--tw-bg-opacity)) 0%,
+    rgba(234, 179, 8, 0) 100%
+  );
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #ffd700 0 0 0 1.5px inset, rgba(255, 255, 255, 0.4) 0 2px 4px,
+    rgba(255, 255, 255, 0.3) 0 7px 13px -3px, #ffd700 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(255, 255, 255, 0.4) 0 4px 8px,
+    rgba(255, 255, 255, 0.3) 0 7px 13px -3px, #ffd700 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #ffd700 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.HomeContainerRight {
+  width: 50%;
+}
+
+.HomeContainerRight > img {
+  animation: float 3s linear infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.element-to-float {
+  animation: floatAnimation 3s ease-in-out infinite;
+}
+
+.Home_Second_Part {
+  width: 100%;
+}
+
+/* Initial state of the element before it comes into view */
+/* Initial state of the element, hidden and moved to the left */
+.about-us-container {
+  opacity: 0;
+  transform: translateX(-100px);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out, visibility 0.6s;
+}
+
+/* State of the element when it is in view */
+.about-us-container.in-view {
+  opacity: 1;
+  transform: translateX(0);
+  visibility: visible;
+}
+
+/* About Us Section Styles */
+#about-us {
+  background: #fff5e6; /* Soft background for a warm feel */
+  padding: 60px 5%;
+  text-align: center;
+}
+
+.about-us-container {
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden; /* In case of large images */
+}
+
+#about-us h2 {
+  font-size: 2.8rem;
+  color: #333; /* Dark text for contrast */
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#about-us h2::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 4px;
+  background: #faa61a; /* Brand color for an accent line */
+  margin: 20px auto 50px;
+  transition: width 0.8s;
+}
+
+#about-us h2:hover::after {
+  content: "";
+  display: block;
+  width: 280px;
+  height: 4px;
+  background: #faa61a; /* Brand color for an accent line */
+  margin: 20px auto 50px;
+  transition: width 0.8s;
+}
+
+#about-us p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #666; /* Slightly lighter text for the paragraph */
+  margin-bottom: 25px;
+}
+
+/* Advanced hover effect for links */
+
+/* Responsive typography and padding */
+@media (max-width: 768px) {
+  #about-us {
+    padding: 40px 20px;
+  }
+
+  #about-us h2 {
+    font-size: 2.2rem;
+  }
+
+  #about-us p {
+    font-size: 1rem;
+  }
+}
+
+.contact-section {
+  position: relative;
+  background: #eceff1;
+  display: flex;
+  justify-content: flex-end;
+  padding: 80px 0;
+  padding-top: 150px;
+  padding-right: 20px;
+  align-items: center;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+}
+
+.contact-info {
+  position: absolute; /* Absolute positioning to overlay */
+
+  transform: translate(-550px, -40px);
+  background: #2c3e50; /* Dark background for the contact info */
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  aspect-ratio: 1/1;
+  width: 320px;
+}
+
+.contact-form {
+  background: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 710px;
+  z-index: 5;
+  padding-left: 180px;
+  padding-right: 40px;
+  height: 500px;
+}
+
+.Contact_h {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.info_h {
+  margin-top: 10px;
+  font-size: 25px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+.contact-info > p {
+  font-size: 15px;
+  margin-top: 15px;
+  display: flex;
+  margin-left: 10px;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.contact-info > p:last-of-type {
+  margin-bottom: 15px;
+}
+
+.contact-info > p > span {
+  font-size: 16px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: #2c3e50;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #34495e;
+}
+
+.contact-section > iframe {
+  position: absolute;
+  left: 20px;
+  border: 2px solid #2c3e50;
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  width: 37%;
+}
+
+.contact-section > h2 {
+  position: absolute;
+  left: 41%;
+  top: 40px;
+  font-size: 2.8rem;
+  color: #333;
+}
+
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 20px;
+}
+
+.social-icons > span {
+  font-size: 18px;
+}
+.social-icons > a {
+  font-size: 24px;
+}
+
+/* Media query for screens that are 1459px wide or larger */
+@media (max-width: 1459px) {
+  .contact-section {
+    flex-wrap: wrap; /* Allows items to wrap as needed */
+    justify-content: space-between; /* Puts maximum space between items */
+    align-items: flex-start; /* Aligns items to the top */
+    padding: 40px 10px; /* Adjust padding */
+  }
+
+  .contact-info {
+    position: static; /* Removes the absolute positioning */
+    width: calc(
+      35% - 10px
+    ); /* Take up half of the container width minus the gap */
+    margin-right: 20px; /* Add margin for spacing */
+    transform: none; /* Remove transform */
+    order: 1; /* Order used to position the item */
+    height: 350px;
+  }
+
+  .contact-form {
+    width: calc(
+      65% - 10px
+    ); /* Take up half of the container width minus the gap */
+    padding: 20px; /* Adjust padding */
+    order: 2; /* Order used to position the item */
+    height: 350px;
+  }
+
+  .Contact_h {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+
+  .contact-section > iframe {
+    width: 100%; /* Full width of its container */
+    height: 500px; /* Height adjusts to content */
+    position: static; /* Removes the absolute positioning */
+    order: 3; /* Places the map below the contact info and form */
+    margin-top: 40px; /* Adds space between the map and the sections above it */
+    border: none; /* Optional: Removes the border */
+  }
+
+  .contact-section > h2 {
+    position: static; /* Removes the absolute positioning */
+    width: 100%; /* Title takes full width */
+    text-align: center; /* Centers the title */
+    order: 0; /* Places the title at the top */
+    margin-top: 0; /* Adjusts the margin at the top */
+    margin-bottom: 20px; /* Adds space between the title and the sections below */
+  }
+
+  /* Adjustments for the social-icons if necessary */
+  .social-icons {
+    justify-content: start; /* Aligns icons to the start of the contact info box */
+  }
+
+  .contact-form{
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+    animation-name: none; /* Initial state, no animation */
+  }
+  .contact-info {
+    animation-duration: 0.6s;
+    animation-fill-mode: both;
+    animation-name: none; /* Initial state, no animation */
+  }
+  
+  .contact-section > iframe {
+    animation-duration: 0.9s;
+    animation-fill-mode: both;
+    animation-name: none; /* Initial state, no animation */
+  }
+  
+  .contact-info.in-view,
+  .contact-form.in-view,
+  .contact-section > iframe.in-view {
+    animation-name: slideInFromLeft; /* Apply the animation when in view */
+  }
+  
+}
+
+@media (max-width: 960px) {
+  .contact-info {
+    width: calc(
+      45% - 10px
+    ); /* Take up half of the container width minus the gap */
+  }
+
+  .contact-form {
+    width: calc(
+      55% - 10px
+    ); /* Take up half of the container width minus the gap */
+  }
+}
+
+
+
+@media (min-width: 1600px) {
+  .contact-section > iframe {
+    width: 42%; /* Full width of its container */
+    
+  }
+}
+
+@media (max-width: 770px) {
+  .contact-section {
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 20px; /* Adjust padding for smaller screens */
+    align-items: flex-start;
+  }
+
+  .contact-section > iframe {
+    width: 100%; /* Full width for iframe */
+    position: static; /* Remove absolute positioning */
+    order: 2; /* Place map above contact info and form */
+    margin-top: 0px;
+    height: 300px;
+  }
+
+  .contact-info {
+    position: static; /* Remove absolute positioning */
+    width: 100%; /* Full width */
+    height: 300px;
+    transform: none; /* Remove transform */
+    margin-bottom: 20px; /* Space between contact info and form */
+  }
+
+  .contact-form {
+    width: 100%; /* Full width */
+    padding: 20px; /* Adjust padding */
+    height: auto; /* Adjust height automatically */
+    order: 0;
+    margin-bottom: 20px;
+  }
+
+  .contact-section > h2 {
+    left: 50%;
+    /* transform: translateX(-50%);  */
+    top: 0;
+    font-size: 2.2rem; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Small screens, typical for portrait tablets and large phones */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .contact-form {
+    padding: 15px; /* Reduced padding */
+  }
+
+  .contact-section > h2 {
+    font-size: 1.8rem; /* Further reduce font size */
+  }
+}
+
+/* Extra small screens, typical for phones */
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 20px 10px; /* Reduce padding even more */
+  }
+
+  .social-icons {
+    justify-content: flex-start;
+  }
+
+  .social-icons > a {
+    font-size: 20px; /* Adjust icon size for small screens */
+  }
+
+  /* Further adjustments for extra small screens */
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromLeftInfo {
+  0% {
+    transform: translate(0px, 0px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-550px, -40px);
+    opacity: 1;
+  }
+}
+@media (min-width: 1459px) {
+  .contact-info.in-view {
+    animation-name: slideInFromLeftInfo;
+  }
+  .contact-form{
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-name: none; /* Initial state, no animation */
+  }
+  .contact-info {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-name: none; /* Initial state, no animation */
+  }
+  
+  .contact-section > iframe {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-name: none; /* Initial state, no animation */
+  }
+  
+  
+  .contact-form.in-view,
+  .contact-section > iframe.in-view {
+    animation-name: slideInFromLeft; /* Apply the animation when in view */
+  }
+  
+}
+
+
+
+.scroll-to-top {
+  width: 50px;
+  height: 50px;
+  background-color: #3498db; /* Button background color */
+  color: white; /* Icon color */
+  border-radius: 50%; /* Circular button */
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Shadow for button */
+  opacity: 0; /* Start hidden */
+  transform: translateY(-100%); /* Start above its final position */
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Ensure the icon size fits well within the button */
+.scroll-to-top svg {
+  width: 25px;
+  height: 25px;
+}

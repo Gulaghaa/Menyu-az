@@ -1,0 +1,118 @@
+.download-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #fff5e6;
+  padding: 40px 40px;
+  padding-bottom: 0px;
+  display: flex;
+}
+
+.iphone {
+  height: 650px;
+}
+
+.app_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 30px;
+}
+
+.app_right > span:first-of-type {
+  font-size: 40px;
+  font-weight: bold; /* Make it bold to stand out */
+  color: #333; /* Dark color for better readability */
+  margin-bottom: 0.5rem; /* Space between the title and the subtitle */
+  position: relative; /* For pseudo-element positioning */
+}
+
+.app_right > span:last-of-type {
+  font-size: 15px;
+  text-align: justify;
+  margin-top: 20px;
+  line-height: 1.6; /* Improved readability for longer text */
+  color: #666; /* Lighter text color for the description */
+}
+
+.link-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.link-container > div:first-of-type {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.download-link > img {
+  width: 150px;
+  height: 50px;
+}
+
+.download-link:last-of-type {
+  transform: translateX(-2px);
+}
+.qr {
+  border: 2px solid black;
+  width: 150px;
+  aspect-ratio: 1/1;
+}
+
+@media (max-width: 1090px) {
+  .download-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px;
+  }
+
+  .iphone {
+    width: 550px;
+    height: 550px;
+  }
+
+  .app_right {
+    padding-right: 0px;
+  }
+
+  .app_right > span:first-of-type {
+    font-size: 40px;
+    font-weight: bold; /* Make it bold to stand out */
+    color: #333; /* Dark color for better readability */
+    margin-bottom: 0.5rem; /* Space between the title and the subtitle */
+    position: relative; /* For pseudo-element positioning */
+  }
+
+  .app_right > span:last-of-type {
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 20px;
+    line-height: 1.6; /* Improved readability for longer text */
+    color: #666; /* Lighter text color for the description */
+  }
+}
+@media (max-width: 620px) {
+  .iphone {
+    width: 400px;
+    height: 400px;
+  }
+
+  .app_right > span:first-of-type {
+    font-size: 30px;
+    font-weight: bold; /* Make it bold to stand out */
+    color: #333; /* Dark color for better readability */
+    margin-bottom: 0.5rem; /* Space between the title and the subtitle */
+    position: relative; /* For pseudo-element positioning */
+  }
+
+  .app_right > span:last-of-type {
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 20px;
+    line-height: 1.6; /* Improved readability for longer text */
+    color: #666; /* Lighter text color for the description */
+  }
+}

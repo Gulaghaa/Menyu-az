@@ -1,0 +1,42 @@
+{
+    "restaurants": [
+      {
+        "id": "64ac5717bebdb796299cfc6f",
+        "name": "Meshur kavurmaci",
+        "phoneNumber": "0705970034",
+        "wpNumber": "0705970034",
+        "instagramUsername": "kavurmaci_rufo",
+        "latitude": 40.39982037536281,
+        "longitude": 49.86619971692562,
+        "address": "Nerimanov Tebriz 83",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/menyuaz-b9af1.appspot.com/o/68616728.jpg?alt=media&token=ed03d0c3-f0ae-473a-bf18-95df82a60dd4",
+        "weeklyDiscount": "25% off on selected kebabs"
+      },
+      {
+        "id": "64b84ae9e998eebbd1c5aa66",
+        "name": "Ülkər Lahmacun",
+        "phoneNumber": "+994707548480",
+        "wpNumber": "0707548480",
+        "instagramUsername": "ulkerlahmacun",
+        "latitude": 40.463312011981856,
+        "longitude": 49.725161120295525,
+        "address": "Xırdalan şəhəri",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/menyuaz-b9af1.appspot.com/o/03863837.jpg?alt=media&token=aa41ed07-1ac2-49f9-82bd-c465b33366bf",
+        "weeklyDiscount": "Buy 1 Lahmacun, Get 1 Free"
+      },
+      {
+        "id": "64c3f33f54308859561abe70",
+        "name": "Qusar Göl",
+        "phoneNumber": "0502071852",
+        "wpNumber": "0552071852",
+        "instagramUsername": "@qusar_gol",
+        "tiktokUsername": "@qusar_hotel",
+        "latitude": 41.41327953239904,
+        "longitude": 48.42494454234839,
+        "address": "Qusar şəhəri",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/menyuaz-b9af1.appspot.com/o/20063921.jpg?alt=media&token=d07b219c-e9d2-4955-9269-e34dc92d0c47",
+        "weeklyDiscount": "15% off for dinner reservations"
+      }
+    ]
+  }
+  
